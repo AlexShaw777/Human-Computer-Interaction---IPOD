@@ -1,0 +1,191 @@
+/* 
+	Global classes 
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+.albums
+{
+	display: grid;
+	padding-top: 20px;
+    grid-template-areas: 
+    "area1 area2"
+	"area3 area4";
+}
+.code
+{
+	grid-area: area1;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	padding-left: 1px;
+	padding-right: 1px;
+	text-align: center;
+}
+.identity
+{
+	grid-area: area2;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	text-align: center;
+}
+.blue
+{
+	grid-area: area3;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	text-align: center;
+}
+.mount
+{
+	grid-area: area4;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	text-align: center;
+}
+
+
+.head-bar {
+	width: 300px;
+	height: 45px;
+	text-align: center;
+	text-shadow: 1px 1px black;
+	color: white;
+	font-size: 2em;
+	background-color: #5F939a;
+	justify-content: center;
+}
+
+
+.head-bar-songs
+{
+	width: 300px;
+	height: 45px;
+	background-color: #5F939a;
+	justify-content: left;
+}
+#title
+{
+	font-size: 30px;
+	
+}
+.body
+{
+	display: grid;
+	padding-top: 20px;
+    grid-template-areas: 
+    "body1 body2";
+	margin-bottom: 0px;
+}
+.body1
+{
+	grid-area: body1;
+}
+.body2
+{
+	grid-area: body2;
+	margin-left: -80px;
+}
+.list
+{
+	margin-top: -30px;
+	font-size: 17px;
+	width: 300px;
+}
+li{
+	margin: 10px -8px;
+	width: 260px;
+	border-width:1px; 
+	border-style: solid;
+}
+li:hover{
+	color: purple;
+	text-decoration: underline;
+}
+
+
+/* 
+	Songs 
+			*/
+.songs-info-wrapper {
+	
+}
+
+.songs-album-art {
+	
+}
+
+.songs-album-name {
+	
+
+}
+
+.songs-artist-name {
+	
+}
+
+.songs-text-info {
+	
+}
+
+.songs-album-year {
+	
+}
+
+.songs-list {
+	
+}
+
+/* 
+	Player 
+			*/
+.player-album-art {
+	
+}
+
+.player-song-info {
+	
+}
+
+#player-song-name {
+	
+}
+
+.volume-bar {
+	
+}
+
+.volume-level {
+	
+}
+
+.volume-rocker {
+	
+}
+
+.player-controls{
+	
+}
+
+#player-time {
+	
+}
+
+#time-elapsed {
+	
+}
+
+#time-total{
+	
+}
